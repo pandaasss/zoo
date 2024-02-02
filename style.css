@@ -1,0 +1,340 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__top {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  z-index: 999;
+}
+
+.header__top-inner {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 63px;
+}
+
+.header__menu-item:not(:last-child) {
+  margin-right: 58px;
+}
+
+.header__menu-link {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.header__menu-item.active .header__menu-link {
+  color: #fe9013;
+}
+
+.header__bottom {
+  background-image: url("./assets/images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.header__bottom-inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__inner-content {
+  margin-bottom: 100px;
+  width: 574px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header__inner-text {
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  color: #fff;
+  text-align: center;
+  font-size: 106.496px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75%;
+  /* 79.872px */
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.header__inner-text span {
+  color: #ffee2e;
+  font-size: 106.496px;
+  font-style: normal;
+}
+
+.header__inner-text p {
+  position: absolute;
+  top: 74px;
+  left: 74px;
+}
+
+.header__button {
+  align-self: center;
+  color: #fff;
+  display: flex;
+  width: 298px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 22.4px */
+  text-transform: uppercase;
+}
+
+
+/*-------------- Bamboo-cap ------------*/
+.bamboo-cap {
+  margin-top: 140px;
+}
+
+.Bamboo-cap__picture {
+  width: 609px;
+  height: 403px;
+  flex-shrink: 0;
+}
+
+
+.Bamboo-cap__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.text_bamboo-cap {
+
+  margin-left: 87px;
+}
+
+.Bamboo-cap_tetx_one {
+  color: #333B41;
+
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.Bamboo-cap_text_twoo {
+  margin-top: 20px;
+  color: #333B41;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.Bamboo-cap_text_three {
+  margin-top: 54px;
+  color: #333B41;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.Bamboo-cap_text_four {
+  margin-top: 34px;
+  color: #333B41;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.flover_picture {
+  position: absolute;
+  right: 0;
+
+}
+
+.flover_picture img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/*____________________________ slider_________________________________ */
+
+
+.corousel-slide {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 180px;
+}
+
+.carousel-slide_1 {
+  width: 366px;
+  height: 406px;
+  border-radius: 5px;
+  border: 1px solid var(--2, #FA6F32);
+}
+
+.slide-text_one {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.icon-slide {
+  margin-right: 20px;
+  margin-left: auto;
+  width: 33px;
+  height: 37px;
+}
+
+.slide-content {
+  display: flex;
+}
+
+.flower_2 {
+  position: absolute;
+  padding-top: 746px;
+}
+
+.flower_3 {
+  right: 0;
+  position: absolute;
+  padding-top: 930px;
+}
+
+.errow_left {
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 390px;
+}
+
+.errow_right {
+  margin-top: 390px;
+  margin-right: 200px;
+  right: 0;
+  position: absolute;
+}
+
+.buton_favorite {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+
+/* _________________________________________________Pick and feed a friend_________________________________________________ */
+
+.pick-and-feed {
+  background-image: linear-gradient(316deg, rgba(254, 210, 144, 0.70) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.70) 106.36%), linear-gradient(316deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(316deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  height: 1004px;
+  margin-top: 234px;
+}
+
+.pick-and-feed-content {
+  background-color: var(--frosted_glass_white, rgba(253, 253, 255, 0.52));
+  ;
+}
+
+
+.Pick-and-feed-text_1 {
+  color: #FE9013;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.Pick-and-feed-text_2 {
+  color: #333B41;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  padding-top: 30px;
+  padding-left: 99px;
+}
+
+.Pick-and-feed-text_3 {
+  color: #333B41;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding-top: 40px;
+  padding-left: 99px;
+}
+.Pick-and-feed-text_4{
+  color: #333B41;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+padding-left: 99px;
+}
+.Pick-and-feed-text_5{
+  color: #333B41;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+.iner_pick-and-feed {
+  padding-top: 69px;
+}
