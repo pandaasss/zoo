@@ -338,3 +338,135 @@ padding-left: 99px;
 .iner_pick-and-feed {
   padding-top: 69px;
 }
+.testimonials {
+  position: relative;
+  padding-top: 8.75rem;
+  padding-bottom: 11.25rem;
+  z-index: 5;
+}
+
+.testimonials__local {
+  font-size: 15px;
+  line-height: 120%;
+  color: #bdbdbd;
+}
+
+[class*=__container] {
+  max-width: 72.5rem;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+
+.testimonials-decor {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 15.3125rem;
+  height: 17.1875rem;
+  background-image: url(./assets/images/leav_foto.png);
+  background-repeat: no-repeat;
+}
+
+.testimonials__title:not(:last-child) {
+  margin-bottom: 2.9375rem;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 130%;
+  color: #333b41;
+  text-align: center;
+}
+
+.testimonials__slider:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.testimonials__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #767474;
+  font-size: .9375rem;
+  line-height: 120%;
+  -webkit-column-gap: 0.9375rem;
+  -moz-column-gap: .9375rem;
+  column-gap: 0.9375rem;
+}
+
+.testimonials__gradient {
+  max-width: 16.75rem;
+  height: 24.4375rem;
+  border-radius: 1.25rem;
+  background: -o-linear-gradient(134.25deg,rgba(254,189,171,.74) 30.06%,rgba(243,169,248,.66) 50.74%,#e0d8f0 80.49%,#eaf7fe 127.9%,#eaf7fe 149.54%),-o-linear-gradient(134.25deg,rgba(254,189,171,.74) 30.06%,rgba(243,169,248,.66) 50.74%,#e0d8f0 80.49%,#eaf7fe 127.9%,#eaf7fe 149.54%);
+  background: linear-gradient(315.75deg,rgba(254,189,171,.74) 30.06%,rgba(243,169,248,.66) 50.74%,#e0d8f0 80.49%,#eaf7fe 127.9%,#eaf7fe 149.54%),linear-gradient(315.75deg,rgba(254,189,171,.74) 30.06%,rgba(243,169,248,.66) 50.74%,#e0d8f0 80.49%,#eaf7fe 127.9%,#eaf7fe 149.54%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.testimonials__user {
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+
+.testimonials__img {
+  margin-right: -5px;
+}
+
+.testimonials__comments {
+  overflow: hidden;
+  max-height: 314px;
+}
+
+.testimonials__card {
+  max-width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  padding-top: 0.875rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.9375rem;
+  background: #f1f3f2;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+.testimonials__text {
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 0.625rem;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
